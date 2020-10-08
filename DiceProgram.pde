@@ -41,7 +41,7 @@ class Die //models one single dice cube
   void show()
   {
     fill(255,255,255);
-    square(myX, myY, 50);
+    rect(myX, myY, 50, 50);
     roll();
     if (num == 6){
       for(int Sy = 30; Sy>=10; Sy-=10){
