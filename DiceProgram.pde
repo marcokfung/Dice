@@ -9,7 +9,7 @@ void draw()
 {
   //your code here
   sum = 0;
-  background(51);
+  background(51,51,51);
   for (int Ey = 50; Ey < 350; Ey += 50){
    for(int Ex = 50; Ex <= 350; Ex += 50){
        bill = new Die(Ex, Ey);
